@@ -1,0 +1,27 @@
+{
+    "llm": {
+      "provider": "huoshan",
+      "search": {
+        "api_key": "key",
+        "api_base": "https://ark.cn-beijing.volces.com/api/v3/bots/chat/completions",
+        "model": "联网model"
+      },
+      "api": {
+        "api_key": "key",
+        "api_base": "https://ark.cn-beijing.volces.com/api/v3/chat/completions",
+        "model": "deepseek-v3-250324"
+      },
+      "temperature": 0.3,
+      "max_tokens": 150,
+      "azure": {
+        "api_version": "2025-04-09",
+        "endpoint": ""
+      }
+    },
+    "search": {
+      "max_results": 5
+    },
+    "ui": {
+      "language": "zh-CN"
+    }
+  }
